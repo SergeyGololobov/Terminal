@@ -15,7 +15,7 @@ Linux terminal (GitBash) commands
 13) Переместить любые 3 файла, которые вы создали, в любую другую папку.  (mv file1.txt file2.txt file1.json folder1/);
 15) Найти файл по имени (find file by name);
 16) Просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
-17) Вывести несколько первых строк из текстового файла (grep -A 5 root /Terminal.txt); 
+17) Вывести несколько первых строк из текстового файла (grep -A 5 root rm/Terminal.txt); 
 18) Вывести несколько последних строк из текстового файла (grep -B 5 root /Terminal.txt);
 19) Просмотреть содержимое длинного файла (команда less) изучите как она работает. (less Terminal.txt);
 20) Вывести дату и время                     (date);
@@ -32,3 +32,6 @@ Linux terminal (GitBash) commands
 30) Удалить файл (rm q1.txt);
 31) Удалить папку (rm -r qa_1 либо rmdir qa_1(если папка заполнена));
 32) Переименовать файл ( mv q11.txt q99.txt);
+33) Отправить http запрос на сервер http://162.55.220.72:5005/terminal-hw-request  (curl http://162.55.220.72:5005/terminal-hw-request)$
+34) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 (cd Terminal; mkdir folder1 folder2 folder3; cd folder1; touch file{1,2,3}.txt file{1,2}.json; mkdir -p {1,2,3}; ls -l; mv file1.txt file2.txt file1.json folder1/);
+
